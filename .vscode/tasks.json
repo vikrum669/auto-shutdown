@@ -10,7 +10,7 @@
             "windows": {
                 "command": "g++"
             },
-            "args": ["-g","autoshut.cpp"]
+            "args": ["-g","autoshut.cpp","-lSDL2"]
         }
     ]
 }

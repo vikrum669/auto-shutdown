@@ -103,21 +103,6 @@ int main()
   String s;
   s.Sort(str, size);
   
-  //  std::string *pt;
-  //  std::string st="da";
-  //  std::string *pt2;
-
-  //  pt=&st;
-
-  //  cout<<"st-val="<<st<<"\n";
-  //  cout<<"st-add="<<&st<<"\n";
-
-  //  cout<<"pt-val="<<pt<<"\n";
-  //  cout<<"pt-add="<<&pt<<"\n";
-
-  //  pt2=pt;
-  //  cout<<"pt2-val="<<pt2<<"\n";
-  //  cout<<"pt2-add="<<&pt2<<"\n";
   
   std::cout<<"\n\n\n";
   return 0;
