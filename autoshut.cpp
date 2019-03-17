@@ -61,10 +61,13 @@ namespace AutoShut
           {
              if(Compare((*_str)[j],(*_str)[j+1])==1)
              {
+                 cout<<"_str[j]="<<_str[j]<<"="<<(*_str)[j]<<"\n";
                  tmp=_str[j];
+                 cout<<"tmp="<<tmp<<"="<<*tmp<<"\n";
                 _str[j]=_str[j+1];
-                 cout<<"_str[j+1]="<<_str[j];
+                cout<<"_str[j=j+1]="<<_str[j]<<"="<<(*_str)[j]<<"\n";
                 _str[j+1]=tmp;
+                cout<<"_str[j+1]="<<_str[j+1]<<"="<<(*_str)[j+1]<<"\n\n\n";
              }
           }
         }
